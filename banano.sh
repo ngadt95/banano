@@ -3,3 +3,5 @@ wget -O fahclient.deb https://download.foldingathome.org/releases/public/release
 sudo dpkg -i --force-depends fahclient.deb
 cd /etc/fahclient/
 sudo FAHClient --configure
+cat config.xml
+sudo systemctl restart FAHClient
